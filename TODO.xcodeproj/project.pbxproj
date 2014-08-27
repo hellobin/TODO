@@ -19,6 +19,7 @@
 		AB89ADB819ADB7A300CBCAAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB89ADA019ADB7A300CBCAAB /* UIKit.framework */; };
 		AB89ADC019ADB7A300CBCAAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB89ADBE19ADB7A300CBCAAB /* InfoPlist.strings */; };
 		AB89ADC219ADB7A300CBCAAB /* TODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB89ADC119ADB7A300CBCAAB /* TODOTests.m */; };
+		AB89ADCC19ADBDDE00CBCAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB89ADCB19ADBDDE00CBCAAB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AB89ADBD19ADB7A300CBCAAB /* TODOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TODOTests-Info.plist"; sourceTree = "<group>"; };
 		AB89ADBF19ADB7A300CBCAAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB89ADC119ADB7A300CBCAAB /* TODOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TODOTests.m; sourceTree = "<group>"; };
+		AB89ADCB19ADBDDE00CBCAAB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				AB89ADAB19ADB7A300CBCAAB /* AppDelegate.h */,
 				AB89ADAC19ADB7A300CBCAAB /* AppDelegate.m */,
+				AB89ADCB19ADBDDE00CBCAAB /* Main.storyboard */,
 				AB89ADAE19ADB7A300CBCAAB /* Images.xcassets */,
 				AB89ADA319ADB7A300CBCAAB /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB89ADCC19ADBDDE00CBCAAB /* Main.storyboard in Resources */,
 				AB89ADA719ADB7A300CBCAAB /* InfoPlist.strings in Resources */,
 				AB89ADAF19ADB7A300CBCAAB /* Images.xcassets in Resources */,
 			);
