@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6DF6E719D94AD200142544 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DF6E619D94AD200142544 /* ToDoItem.m */; };
 		AB89AD9D19ADB7A300CBCAAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB89AD9C19ADB7A300CBCAAB /* Foundation.framework */; };
 		AB89AD9F19ADB7A300CBCAAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB89AD9E19ADB7A300CBCAAB /* CoreGraphics.framework */; };
 		AB89ADA119ADB7A300CBCAAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB89ADA019ADB7A300CBCAAB /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB6DF6E519D94AD200142544 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		AB6DF6E619D94AD200142544 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		AB89AD9919ADB7A300CBCAAB /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB89AD9C19ADB7A300CBCAAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB89AD9E19ADB7A300CBCAAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				AB89ADD719ADE3DE00CBCAAB /* AddToDoItemViewController.m */,
 				AB89ADD919ADF2D600CBCAAB /* ToDoListTableViewController.h */,
 				AB89ADDA19ADF2D600CBCAAB /* ToDoListTableViewController.m */,
+				AB6DF6E519D94AD200142544 /* ToDoItem.h */,
+				AB6DF6E619D94AD200142544 /* ToDoItem.m */,
 			);
 			path = TODO;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB89ADAD19ADB7A300CBCAAB /* AppDelegate.m in Sources */,
+				AB6DF6E719D94AD200142544 /* ToDoItem.m in Sources */,
 				AB89ADDB19ADF2D600CBCAAB /* ToDoListTableViewController.m in Sources */,
 				AB89ADA919ADB7A300CBCAAB /* main.m in Sources */,
 				AB89ADD819ADE3DE00CBCAAB /* AddToDoItemViewController.m in Sources */,
@@ -453,6 +459,7 @@
 				AB89ADC719ADB7A300CBCAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB89ADC819ADB7A300CBCAAB /* Build configuration list for PBXNativeTarget "TODOTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				AB89ADCA19ADB7A300CBCAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

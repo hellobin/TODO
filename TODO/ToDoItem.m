@@ -8,6 +8,28 @@
 
 #import "ToDoItem.h"
 
+@interface ToDoItem()
+@property NSDate  *complete_date;
+@end
+
 @implementation ToDoItem
 
+
+-(void)mark_as_completed:(BOOL)is_completed
+{
+  
+}
+
+-(void)set_complete_date
+{
+  if (self.completed)
+  {
+    self.complete_date = [NSDate date];
+  }
+  else
+  {
+    self.complete_date = nil;
+  }
+
+}
 @end

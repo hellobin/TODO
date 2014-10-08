@@ -10,4 +10,9 @@
 
 @interface ToDoItem : NSObject
 
+@property NSString *item_name;
+@property BOOL     completed;
+@property NSDate   *create_date;
+
+-(void)mark_as_completed:(BOOL)is_completed;
 @end

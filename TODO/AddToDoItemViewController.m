@@ -9,6 +9,8 @@
 #import "AddToDoItemViewController.h"
 
 @interface AddToDoItemViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *button_done;
 
 @end
 
@@ -35,15 +37,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if (sender != self.button_done)
+    {
+        return;
+    }
+    if (self.textField.text.length>0)
+    {
+        self.todo_item = [[ToDoItem alloc]init];
+        self.todo_item.item_name = self.textField.text;
+        self.todo_item.completed = NO;
+    }
 }
-*/
 
 @end

@@ -10,5 +10,7 @@
 
 @interface ToDoListTableViewController : UITableViewController
 
+@property NSMutableArray *to_do_items;
+
 -(IBAction)unwindToDoList:(UIStoryboardSegue*)segue;
 @end
